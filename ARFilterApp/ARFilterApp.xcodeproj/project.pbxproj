@@ -13,7 +13,6 @@
 		764EF01826FC0E8100151143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764EF01626FC0E8100151143 /* Main.storyboard */; };
 		764EF01A26FC0E8400151143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764EF01926FC0E8400151143 /* Assets.xcassets */; };
 		764EF01D26FC0E8400151143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764EF01B26FC0E8400151143 /* LaunchScreen.storyboard */; };
-		76AE255926FC9CBD0079B10D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE255826FC9CBC0079B10D /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		764EF01E26FC0E8400151143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764EF02326FC0E8400151143 /* ARFilterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFilterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		764EF02D26FC0E8400151143 /* ARFilterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFilterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76AE255826FC9CBC0079B10D /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +91,6 @@
 		764EF00F26FC0E8100151143 /* ARFilterApp */ = {
 			isa = PBXGroup;
 			children = (
-				76AE255826FC9CBC0079B10D /* CameraController.swift */,
 				764EF01026FC0E8100151143 /* AppDelegate.swift */,
 				764EF01226FC0E8100151143 /* SceneDelegate.swift */,
 				764EF01426FC0E8100151143 /* ViewController.swift */,
@@ -237,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				764EF01526FC0E8100151143 /* ViewController.swift in Sources */,
-				76AE255926FC9CBD0079B10D /* CameraController.swift in Sources */,
 				764EF01126FC0E8100151143 /* AppDelegate.swift in Sources */,
 				764EF01326FC0E8100151143 /* SceneDelegate.swift in Sources */,
 			);
