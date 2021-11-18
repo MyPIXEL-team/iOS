@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A01BAE6398FA7F378D93EA /* Pods_ARFilterAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA256DC50932CDC23D6C175 /* Pods_ARFilterAppTests.framework */; };
+		56051EFB569E7C7B1D83E349 /* Pods_ARFilterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28B57AAF518A6D87108DD29 /* Pods_ARFilterApp.framework */; };
 		764EF01126FC0E8100151143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EF01026FC0E8100151143 /* AppDelegate.swift */; };
 		764EF01326FC0E8100151143 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EF01226FC0E8100151143 /* SceneDelegate.swift */; };
-		764EF01526FC0E8100151143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EF01426FC0E8100151143 /* ViewController.swift */; };
+		764EF01526FC0E8100151143 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EF01426FC0E8100151143 /* MainViewController.swift */; };
 		764EF01826FC0E8100151143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764EF01626FC0E8100151143 /* Main.storyboard */; };
-		764EF01A26FC0E8400151143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764EF01926FC0E8400151143 /* Assets.xcassets */; };
 		764EF01D26FC0E8400151143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764EF01B26FC0E8400151143 /* LaunchScreen.storyboard */; };
+		764F6FAD273D2C33004E81AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764F6F91273D2C33004E81AE /* Assets.xcassets */; };
+		764F6FB0273D2C33004E81AE /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 764F6FAC273D2C33004E81AE /* Models.scnassets */; };
+		764F6FB2273D2C75004E81AE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 764F6FB1273D2C75004E81AE /* art.scnassets */; };
+		7653E0FD273D37480029CF99 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653E0FC273D37480029CF99 /* ImageCell.swift */; };
+		E8EDC9E82DC0910D5AF25A9F /* Pods_ARFilterApp_ARFilterAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC778EC4110C6631050297FE /* Pods_ARFilterApp_ARFilterAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +39,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C58AEAB23EBF0E0B2FF5021 /* Pods-ARFilterApp-ARFilterAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFilterApp-ARFilterAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARFilterApp-ARFilterAppUITests/Pods-ARFilterApp-ARFilterAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EA256DC50932CDC23D6C175 /* Pods_ARFilterAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARFilterAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		764EF00D26FC0E8100151143 /* ARFilterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFilterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		764EF01026FC0E8100151143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		764EF01226FC0E8100151143 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		764EF01426FC0E8100151143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		764EF01426FC0E8100151143 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		764EF01726FC0E8100151143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		764EF01926FC0E8400151143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		764EF01C26FC0E8400151143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		764EF01E26FC0E8400151143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764EF02326FC0E8400151143 /* ARFilterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFilterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		764EF02D26FC0E8400151143 /* ARFilterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFilterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		764F6F91273D2C33004E81AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		764F6FAC273D2C33004E81AE /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		764F6FB1273D2C75004E81AE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		7653E0FC273D37480029CF99 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		89507FFCFC45F5B10F7F41AA /* Pods-ARFilterAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFilterAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ARFilterAppTests/Pods-ARFilterAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A28B57AAF518A6D87108DD29 /* Pods_ARFilterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARFilterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C996AE49140B7923EE9C09FB /* Pods-ARFilterApp-ARFilterAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFilterApp-ARFilterAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ARFilterApp-ARFilterAppUITests/Pods-ARFilterApp-ARFilterAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAD5185E1AA2319F59C3A704 /* Pods-ARFilterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFilterApp.debug.xcconfig"; path = "Target Support Files/Pods-ARFilterApp/Pods-ARFilterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E0C0AE4CDB97E66692D14FFD /* Pods-ARFilterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFilterApp.release.xcconfig"; path = "Target Support Files/Pods-ARFilterApp/Pods-ARFilterApp.release.xcconfig"; sourceTree = "<group>"; };
+		EC778EC4110C6631050297FE /* Pods_ARFilterApp_ARFilterAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARFilterApp_ARFilterAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62CE30F2EB8823BBE677718 /* Pods-ARFilterAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFilterAppTests.release.xcconfig"; path = "Target Support Files/Pods-ARFilterAppTests/Pods-ARFilterAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56051EFB569E7C7B1D83E349 /* Pods_ARFilterApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A01BAE6398FA7F378D93EA /* Pods_ARFilterAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EDC9E82DC0910D5AF25A9F /* Pods_ARFilterApp_ARFilterAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +96,8 @@
 			children = (
 				764EF00F26FC0E8100151143 /* ARFilterApp */,
 				764EF00E26FC0E8100151143 /* Products */,
+				8D104CC7BEE0EAE9A7B76B11 /* Pods */,
+				CC484734B15C949AA06C44F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,13 +116,48 @@
 			children = (
 				764EF01026FC0E8100151143 /* AppDelegate.swift */,
 				764EF01226FC0E8100151143 /* SceneDelegate.swift */,
-				764EF01426FC0E8100151143 /* ViewController.swift */,
+				764F6FB1273D2C75004E81AE /* art.scnassets */,
+				764EF01426FC0E8100151143 /* MainViewController.swift */,
+				764F6F91273D2C33004E81AE /* Assets.xcassets */,
+				764F6FA7273D2C33004E81AE /* Base.lproj */,
 				764EF01626FC0E8100151143 /* Main.storyboard */,
-				764EF01926FC0E8400151143 /* Assets.xcassets */,
 				764EF01B26FC0E8400151143 /* LaunchScreen.storyboard */,
 				764EF01E26FC0E8400151143 /* Info.plist */,
+				7653E0FC273D37480029CF99 /* ImageCell.swift */,
 			);
 			path = ARFilterApp;
+			sourceTree = "<group>";
+		};
+		764F6FA7273D2C33004E81AE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				764F6FAC273D2C33004E81AE /* Models.scnassets */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		8D104CC7BEE0EAE9A7B76B11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5185E1AA2319F59C3A704 /* Pods-ARFilterApp.debug.xcconfig */,
+				E0C0AE4CDB97E66692D14FFD /* Pods-ARFilterApp.release.xcconfig */,
+				1C58AEAB23EBF0E0B2FF5021 /* Pods-ARFilterApp-ARFilterAppUITests.debug.xcconfig */,
+				C996AE49140B7923EE9C09FB /* Pods-ARFilterApp-ARFilterAppUITests.release.xcconfig */,
+				89507FFCFC45F5B10F7F41AA /* Pods-ARFilterAppTests.debug.xcconfig */,
+				F62CE30F2EB8823BBE677718 /* Pods-ARFilterAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC484734B15C949AA06C44F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A28B57AAF518A6D87108DD29 /* Pods_ARFilterApp.framework */,
+				EC778EC4110C6631050297FE /* Pods_ARFilterApp_ARFilterAppUITests.framework */,
+				5EA256DC50932CDC23D6C175 /* Pods_ARFilterAppTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764EF03726FC0E8400151143 /* Build configuration list for PBXNativeTarget "ARFilterApp" */;
 			buildPhases = (
+				B070DE24466BBFDA1C2638A7 /* [CP] Check Pods Manifest.lock */,
 				764EF00926FC0E8100151143 /* Sources */,
 				764EF00A26FC0E8100151143 /* Frameworks */,
 				764EF00B26FC0E8100151143 /* Resources */,
+				876A91465DC48F5790601436 /* [CP] Embed Pods Frameworks */,
+				EBF98A7F6E9B32DE639CB736 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764EF03A26FC0E8400151143 /* Build configuration list for PBXNativeTarget "ARFilterAppTests" */;
 			buildPhases = (
+				90BF9832AA08798BE8873C57 /* [CP] Check Pods Manifest.lock */,
 				764EF01F26FC0E8400151143 /* Sources */,
 				764EF02026FC0E8400151143 /* Frameworks */,
 				764EF02126FC0E8400151143 /* Resources */,
@@ -144,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764EF03D26FC0E8400151143 /* Build configuration list for PBXNativeTarget "ARFilterAppUITests" */;
 			buildPhases = (
+				CDBA2813689E639E62EDEBCF /* [CP] Check Pods Manifest.lock */,
 				764EF02926FC0E8400151143 /* Sources */,
 				764EF02A26FC0E8400151143 /* Frameworks */,
 				764EF02B26FC0E8400151143 /* Resources */,
+				A6DFA033C7D1BFBBFE8ADC88 /* [CP] Embed Pods Frameworks */,
+				F8C8317600ED3B806D599AFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,8 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764F6FAD273D2C33004E81AE /* Assets.xcassets in Resources */,
 				764EF01D26FC0E8400151143 /* LaunchScreen.storyboard in Resources */,
-				764EF01A26FC0E8400151143 /* Assets.xcassets in Resources */,
+				764F6FB2273D2C75004E81AE /* art.scnassets in Resources */,
+				764F6FB0273D2C33004E81AE /* Models.scnassets in Resources */,
 				764EF01826FC0E8100151143 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,12 +295,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		876A91465DC48F5790601436 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp/Pods-ARFilterApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp/Pods-ARFilterApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp/Pods-ARFilterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90BF9832AA08798BE8873C57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARFilterAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DFA033C7D1BFBBFE8ADC88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp-ARFilterAppUITests/Pods-ARFilterApp-ARFilterAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp-ARFilterAppUITests/Pods-ARFilterApp-ARFilterAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp-ARFilterAppUITests/Pods-ARFilterApp-ARFilterAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B070DE24466BBFDA1C2638A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARFilterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDBA2813689E639E62EDEBCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARFilterApp-ARFilterAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF98A7F6E9B32DE639CB736 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp/Pods-ARFilterApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp/Pods-ARFilterApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp/Pods-ARFilterApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C8317600ED3B806D599AFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp-ARFilterAppUITests/Pods-ARFilterApp-ARFilterAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp-ARFilterAppUITests/Pods-ARFilterApp-ARFilterAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARFilterApp-ARFilterAppUITests/Pods-ARFilterApp-ARFilterAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		764EF00926FC0E8100151143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764EF01526FC0E8100151143 /* ViewController.swift in Sources */,
+				764EF01526FC0E8100151143 /* MainViewController.swift in Sources */,
+				7653E0FD273D37480029CF99 /* ImageCell.swift in Sources */,
 				764EF01126FC0E8100151143 /* AppDelegate.swift in Sources */,
 				764EF01326FC0E8100151143 /* SceneDelegate.swift in Sources */,
 			);
@@ -406,12 +611,20 @@
 		};
 		764EF03826FC0E8400151143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD5185E1AA2319F59C3A704 /* Pods-ARFilterApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7A464AFW63;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MLKitVision/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitCommon/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitFaceDetection/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLImage/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARFilterApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -435,12 +648,20 @@
 		};
 		764EF03926FC0E8400151143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C0AE4CDB97E66692D14FFD /* Pods-ARFilterApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7A464AFW63;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MLKitVision/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitCommon/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitFaceDetection/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLImage/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARFilterApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +685,7 @@
 		};
 		764EF03B26FC0E8400151143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89507FFCFC45F5B10F7F41AA /* Pods-ARFilterAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +711,7 @@
 		};
 		764EF03C26FC0E8400151143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62CE30F2EB8823BBE677718 /* Pods-ARFilterAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +737,7 @@
 		};
 		764EF03E26FC0E8400151143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C58AEAB23EBF0E0B2FF5021 /* Pods-ARFilterApp-ARFilterAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +761,7 @@
 		};
 		764EF03F26FC0E8400151143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C996AE49140B7923EE9C09FB /* Pods-ARFilterApp-ARFilterAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
